@@ -1,0 +1,107 @@
+body {
+  font-family: sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-image: url("осень.jpg");
+  background-size: cover; /* Масштабируем изображение, чтобы оно заполнило весь экран */
+  background-repeat: no-repeat; /* Отключаем повторение изображения */
+  background-attachment: fixed; /* Делаем фон неподвижным */
+}
+
+header h1 {
+  margin: 0;
+}
+
+section {
+  background-color: #ffb940;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 150px;
+}
+
+.photo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+.comment-from {
+  margin-top: 20px;
+}
+
+input { /* Style for the input field */
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid red; /* Red border */
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid red; /* Red border */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid red; /* Red border */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+.delete-comment {
+  float: right;
+}
+
+a {
+  color: #000000; /* Голубой */
+  text-decoration:dotted;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #ffbb00;
+  color: #000000;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .contact {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.social-links {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 24px;
+}
